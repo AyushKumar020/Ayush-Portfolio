@@ -1,0 +1,305 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #cfcece7e;
+}
+
+.background {
+    background-color: #cfcece7e;
+}
+
+.herodiv {
+    /* background-color: rgb(214, 230, 255); */
+
+}
+
+.heroh1 {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.herop {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgba(118, 118, 119, 0.842);
+}
+
+.heroimg {
+    opacity: 0.8;
+}
+
+.heroimgbottom {
+    height: 120px;
+}
+
+.img1 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.img4 {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.img2 {
+    position: absolute;
+    top: 450px;
+    right: 200px;
+    transform: rotate(-20deg)
+}
+
+.img3 {
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    transform: rotate(20deg);
+}
+
+.resumediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resumecontent {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.644);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.144);
+    padding: 50px 25px;
+    margin: 50px;
+}
+
+.resumeelem {
+    margin-bottom: 15px;
+}
+
+.resumeh1 {
+    /* margin-top: 100px; */
+    margin-bottom: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+.resumep {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+    font-size: 2rem;
+}
+
+.resumeimg {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.resumebutton {
+    /* margin-bottom: 100px; */
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: black;
+    color: gray;
+    border: none;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.projectsection {
+    height: 70vh;
+    width: 100%;
+    /* background-color: rgba(163, 163, 163, 0.274); */
+    text-align: center;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+
+.projectdiv {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.projectupperh1 {
+    display: inline-block;
+    padding: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3rem;
+    color: gray;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.projectimg {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#carouselExampleCaptions {
+    width: 60%;
+    margin: auto;
+}
+
+.carouselhead {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.carouselpara {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.carouselimg {
+    opacity: 0.85;
+    border-radius: 10px;
+    border: 5px solid black;
+    filter: grayscale(70%);
+    object-fit: cover;
+    height: 450px;
+}
+
+
+.projectbottom {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.aboutme {
+    height: fit-content;
+    /* background-color: rgba(156, 156, 156, 0.205); */
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+
+}
+
+.aboutmeh2 {
+    display: inline-block;
+    margin: 50px;
+    margin-bottom: 30px;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.aboutmeh3 {
+    display: inline-block;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.aboutmep {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.aboutmediv1 {
+    display: inline-block;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+    padding-bottom: 0px;
+    width: 60%;
+    margin-bottom: 0px;
+    /* text-align: center; */
+}
+
+.aboutmeunderdiv {
+    text-align: center;
+}
+
+.aboutmediv2 {
+    display: inline-block;
+    margin: auto;
+    margin-top: 0;
+    /* border: 1px solid black; */
+    padding: 20px;
+    padding-top: 0px;
+    width: 60%;
+}
+
+.aboutmeul{
+    list-style:none;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.822);
+    height: 12vh;
+
+}
+
+@media((max-width:1250px)){
+    body{
+        /* background-color: aqua; */
+    }
+    .heroimgbottom{
+        display: none;
+    }
+
+}
+@media((max-width:700px)){
+    .aboutmeh2{
+        font-size: 2rem;
+    }
+    .aboutmeh3{
+        font-size: smaller;
+    }
+    .aboutmeimg{
+        height: 30px;
+    }
+}
